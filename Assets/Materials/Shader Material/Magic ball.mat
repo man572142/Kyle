@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Magic ball
+  m_Shader: {fileID: -6465566751694194690, guid: 339296988a0d4654eb42ee464cf48880, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 2
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_0af33da6a9c743578bf3ea131dd3b280: 0.4
+    - Vector1_153466b3945840008c17cd11953f2009: 0.03
+    - Vector1_346bb96249ea4d6eae363807dfb13a0f: 0.75
+    - Vector1_76773149cd0d404aae7cd036c72a2e70: 0.13
+    - Vector1_872f8c803e1f4e5799ae9f5cab6e42f6: 2.71
+    - Vector1_9b06df95971a4c6789b86d98e9dffffc: 0
+    - Vector1_9c5aaed0e22d47d79b90744d24dbfe82: 1.74
+    - Vector1_c30aecee0acf4518a4cdf7c31d76b927: 5
+    - Vector1_c4b8ad943fdd42db9f0ac8f4e7e3f6fe: 0.25
+    - Vector1_d447d711a15d49c3aba0d8b69a4ac097: -0.95
+    m_Colors:
+    - Color_4cdf16f240be4954b5552df7eee07fdb: {r: 0.035294108, g: 0.67101324, b: 0.8117647, a: 1}
+    - Color_72a8dd1a62404b20af01c6d870135386: {r: 0.5990566, g: 1, b: 0.6631283, a: 1}
+    - Color_d46dc8999d73416eb2717a6acd363bb5: {r: 1, g: 1, b: 1, a: 1}
+    - Color_fe0d895fe13c4fb6a9d3d0d40df9a68c: {r: 0.6886792, g: 0.34013218, b: 0.035733357, a: 1}
+    - Vector2_0c878c7cb6e94947b0d67d10e7dad638: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

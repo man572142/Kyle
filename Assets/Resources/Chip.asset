@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67515dab19263bf42bf9f4f4cbf919e5, type: 3}
+  m_Name: Chip
+  m_EditorClassIdentifier: 
+  id: 2
+  icon: {fileID: 21300000, guid: 7abafbd4782484ec8883c08c413e768c, type: 3}
+  title: Chip
+  info: "\u53EF\u4EE5\u63D0\u534730%\u653B\u64CA\u529B\u7684\u6676\u7247"
+  color: {r: 0.19290671, g: 0.8018868, b: 0.30845675, a: 1}
+  useType: 1
+  costType: 1
+  hpChangeByUse: 0
+  addDamagePercent: 30
