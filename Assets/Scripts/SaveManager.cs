@@ -107,14 +107,14 @@ public class SaveManager
 public struct GameData
 {
     /// <summary>³õ´º¦WºÙ</summary>
-    [SerializeField] public string sceneName;
-    [SerializeField] public Vector3 playerPos;
-    [SerializeField] public float playerHealth;
-    [SerializeField] public List<HaveItem> haveItemList;
-    [SerializeField] public List<AIdata> aiDatas;
-    [SerializeField] public List<string> keyDatas;
-    [SerializeField] public List<MechanicData> mechanicDatas;
-    [SerializeField] public List<string> deadEnemy;
+    public string sceneName;
+    public Vector3 playerPos;
+    public float playerHealth;
+    public List<HaveItem> haveItemList;
+    public List<AIdata> aiDatas;
+    public List<string> keyDatas;
+    public List<MechanicData> mechanicDatas;
+    public List<string> deadEnemy;
 }
 
 [System.Serializable]
