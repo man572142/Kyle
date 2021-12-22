@@ -27,8 +27,7 @@ public class GroundDetective : MonoBehaviour
 
             if(groundDistance > fallingHeight)
             {
-                //如果超過1公尺就先進來這裡等(不施加額外的力,純物理重力)
-                Debug.Log(isGrounded);
+                //如果超過1公尺就先進來這裡等，直到collider也離開地面後isGrounded = false進入以下if()
                 if(!isGrounded)
                 {
                     playerController.SetAirAnimate(true);   //掉落
@@ -56,7 +55,7 @@ public class GroundDetective : MonoBehaviour
     }
 
 
-    private void OnTriggerExit(Collider other)
+    private void OnTriggerExit(Collider other)  
     {
         if (other.gameObject.layer == LayerMask.NameToLayer("Ground"))
         {

@@ -51,10 +51,13 @@ public class MainMenu : MonoBehaviour
     IEnumerator NewGameNarrate()
     {
         narrateScreen.gameObject.GetComponent<Animator>().SetBool("Play", true);
+
         AsyncOperation asyncOperation = SceneManager.LoadSceneAsync(1);
         asyncOperation.allowSceneActivation = false;
-        yield return new WaitForSeconds(5f);
+
+        yield return new WaitForSeconds(5f);  //FadeOut加上MiProduction的動畫長度
         yield return StartCoroutine(narrateScreen.TextFillIn());
+
         asyncOperation.allowSceneActivation = true;
     }
 
